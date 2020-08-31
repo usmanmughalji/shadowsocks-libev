@@ -4,7 +4,8 @@ ENV PORT        8080
 ENV PASSWORD    ss123456
 ENV METHOD      chacha20-ietf-poly1305
 
-RUN apk update && apk add --no-cache shadowsocks-libev curl && \
+RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && \
+    apk update && apk add --no-cache shadowsocks-libev curl && \
     curl -sL https://github.com/shadowsocks/v2ray-plugin/releases/download/v1.3.1/v2ray-plugin-linux-amd64-v1.3.1.tar.gz | tar zxC /usr/bin/ && \
     chmod a+x /usr/bin/v2ray-plugin_linux_amd64
 
