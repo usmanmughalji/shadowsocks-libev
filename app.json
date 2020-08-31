@@ -1,0 +1,18 @@
+{
+    "name": "shadowsocks-libev",
+    "description": "shadowsocks-libev with v2ray-plugin on heroku",
+    "keywords": ["shadowsocks-libev"],
+    "env": {
+        "PASSWORD": {
+            "description": "shadowsocks-libev password",
+            "value": "ss123456"
+        },
+        "METHOD": {
+            "description": "shadowsocks-libev chacha20-ietf-poly1305",
+            "value": "chacha20-ietf-poly1305"        
+        }
+    },
+    "website": "https://github.com/mixool/shadowsocks-libev",
+    "repository": "https://github.com/mixool/shadowsocks-libev",
+    "stack": "container"
+}
