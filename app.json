@@ -5,7 +5,7 @@
     "env": {
         "PASSWORD": {
             "description": "shadowsocks-libev password",
-            "value": "ss123456"
+            "value": "ChangeThis"
         },
         "METHOD": {
             "description": "shadowsocks-libev chacha20-ietf-poly1305",
@@ -13,7 +13,7 @@
         },
         "PATH": {
             "description": "shadowsocks-libev path",
-            "value": "/"        
+            "value": "/ChangeThis"        
         }
     },
     "website": "https://github.com/mixool/shadowsocks-libev",
