@@ -8,7 +8,7 @@
             "value": "ChangeThis"
         },
         "METHOD": {
-            "description": "shadowsocks-libev chacha20-ietf-poly1305",
+            "description": "shadowsocks-libev method",
             "value": "chacha20-ietf-poly1305"        
         },
         "WSPATH": {
