@@ -10,10 +10,6 @@
         "METHOD": {
             "description": "shadowsocks-libev chacha20-ietf-poly1305",
             "value": "chacha20-ietf-poly1305"        
-        },
-        "PATH": {
-            "description": "shadowsocks-libev path",
-            "value": "/ChangeThis"        
         }
     },
     "website": "https://github.com/mixool/shadowsocks-libev",
