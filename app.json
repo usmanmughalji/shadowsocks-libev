@@ -11,9 +11,9 @@
             "description": "shadowsocks-libev chacha20-ietf-poly1305",
             "value": "chacha20-ietf-poly1305"        
         },
-        "PATH": {
+        "WSPATH": {
             "description": "websocket path",
-            "value": "/"        
+            "value": "/ChangeThis"        
         }
     },
     "website": "https://github.com/mixool/shadowsocks-libev",
