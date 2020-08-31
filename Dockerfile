@@ -3,7 +3,7 @@ FROM alpine:edge
 ENV PORT        3000
 ENV PASSWORD    ChangeThis
 ENV METHOD      chacha20-ietf-poly1305
-ENV PATH="/"
+ENV PATH="/ChangeThis"
 
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && \
     apk update && apk add --no-cache shadowsocks-libev curl && \
