@@ -6,7 +6,6 @@ ENV METHOD      chacha20-ietf-poly1305
 ENV PV          1.3.1
 ENV WSPATH="/ChangeThis"
 
-
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && \
     apk update && apk add --no-cache shadowsocks-libev curl && \
     curl -sL https://github.com/shadowsocks/v2ray-plugin/releases/download/v${PV}/v2ray-plugin-linux-amd64-v${PV}.tar.gz | tar zxC /usr/bin/ && \
