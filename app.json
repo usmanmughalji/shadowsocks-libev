@@ -5,7 +5,7 @@
     "env": {
         "PASSWORD": {
             "description": "shadowsocks-libev password",
-            "value": "ChangeThis"
+            "value": "password"
         },
         "METHOD": {
             "description": "shadowsocks-libev method",
@@ -13,7 +13,7 @@
         },
         "WSPATH": {
             "description": "websocket path",
-            "value": "/ChangeThis"        
+            "value": "/posts.html"        
         }
     },
     "website": "https://github.com/mixool/shadowsocks-libev",
