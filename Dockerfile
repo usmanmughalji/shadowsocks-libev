@@ -2,7 +2,6 @@ FROM alpine:edge
 
 ENV PORT        3000
 ENV PASSWORD    password
-ENV METHOD      chacha20-ietf-poly1305
 ENV PV          1.3.1
 ENV WSPATH="/posts.html"
 
